@@ -1,4 +1,7 @@
-## Troubles I had installing IRAF on Manjaro
+## A bit of trouble I had installing IRAF on Manjaro
+
+### Update (2022)
+I installed IRAF, X11IRAF and MOOG ([this version](https://github.com/MingjieJian/moog_nosm)) on ArcoLinux this January, and it all went smoothly. Perhaps many of the issues I had complained about got patched. But this is good news, right?(!)
 
 ### IRAF
 Firstly, make sure you extract the ```.tar.gz``` properly. One problem that I faced was that when I extracted a ```.zip``` some of the files which were supposed to be symlinks (symbolic links) turned out to be normal text files (which was wrong!).
